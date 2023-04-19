@@ -10,17 +10,18 @@ String swim();
 
 Create following 5 classes:
 
-Fish implementing Swim — the swim method should return “Swims under water”
+Fish implementing Swim — the swim method should return “Swims underwater”
 
 Plane implementing Flight — the fly method should return “Flies with engine”
 
-Duck implementing Swim and Flight — the swim method should return “Kinda floats”
+Duck implementing Swim and Flight: 
+	— the swim method should return “Kinda floats”
 
-                                                           — the fly method returns “Flies with wings”
+	— the fly method returns “Flies with wings”
 
 Pegasus implementing Flight — the fly method should return “Flies with wings”
 
-Submarine implementing Swim — the swim method should return “Swims under water”
+Submarine implementing Swim — the swim method should return “Swims underwater”
 
 Create a Main class which will test your code.
 
@@ -41,7 +42,7 @@ Create the abstract class Shape.
 
 The Shape has 1 attribute: colour (String)
 
-Every shape can return it’s area and circumference, both returning double.
+Every shape can return its area and circumference, both returning double.
 
 Create 3 classes:
 
@@ -53,7 +54,7 @@ Has 1 attribute:
 
 radius (double)
 
-Area = radius2 x PI 
+1. Area = radius2 x PI 
 Circumference = 2 x radius x PI 
 2. Square 
 Has 1 attribute: 
